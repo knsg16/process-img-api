@@ -1,24 +1,12 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Instractions
+1. `git clone git@github.com:knsg16/process-img-api.git`
+2. `bundle install`
+3. `bundle exec rake db:create`
+4. `bundle exec rails s`
+5.  call `http://localhost:3000/images?width=[width]&url?=[url]`
 
-Things you may want to cover:
+### example
+`http://localhost:3000/images?width=1000&url=https://tih-api.stb.gov.sg/media/v1/download/uuid/1019421ef43abd24d9d8c1b3739fe030933?apikey=j7v151wDBfGRtdHGzkj5ESG7RtDGnt5H`
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
